@@ -56,7 +56,17 @@ This project aims to develop an AI-based fire hydrant detection system capable o
 - Click on "Open Video" to select the video for training.
 - 
 #### **3. Training Data with YOLOv5 in Colab**
-- The YOLOv5 environment was set up on Google Colab, and the dataset was prepared for training.
+- Link your Google Drive to Colab
+<p align="center">
+    <img width="499" alt="제목 없음3" src="https://github.com/user-attachments/assets/afa97dce-8a7a-4cef-b35c-d915cabb93e6">
+</p>
+
+- Clone and install the yolov5 repertoire.
+<p align="center">
+    <img width="499" alt="제목 없음3" src="https://github.com/user-attachments/assets/afa97dce-8a7a-4cef-b35c-d915cabb93e6">
+</p>
+
+- Creating Validation Data
 <p align="center">
     <img width="499" alt="제목 없음3" src="https://github.com/user-attachments/assets/afa97dce-8a7a-4cef-b35c-d915cabb93e6">
 </p>
