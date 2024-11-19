@@ -29,6 +29,12 @@ This project aims to develop an AI-based fire hydrant detection system capable o
   - Fire hydrants located in corridors, parking lots, and building interiors
   - Fire hydrants observed from varying angles and distances
 
+  Training Video
+  - https://drive.google.com/drive/folders/1mJCcktAhYm8GLaX3lNCiNZZVsGtgNuev?usp=sharing
+ 
+  Validation Video
+  - https://drive.google.com/drive/folders/11LCP-HhQijT6ye0oaJKHa0C6FdKvZ-Er?usp=sharing
+
 ---
 
 ### Project Progress
@@ -36,22 +42,23 @@ This project aims to develop an AI-based fire hydrant detection system capable o
 #### **1. Image Preprocessing**
 - Fire hydrant images were resized to **640 x 640** resolution to ensure compatibility with YOLOv5.
 <p align="center">
-    <img src="image1.png" width="400"/> 
-    <img src="image2.png" width="400"/>
+    <img width="1263" alt="제목 없음" src="https://github.com/user-attachments/assets/17601312-27a0-41ef-bcfd-21e7d29d69d8">
+    <img width="599" alt="제목 없음1" src="https://github.com/user-attachments/assets/e74f125e-c284-41b3-a345-9d3d972d34cd">
 </p>
+
 
 #### **2. Annotation with DarkLabel**
 - **DarkLabel.exe** was used to annotate fire hydrants' positions in the dataset.
 - Annotations were saved in `.txt` format following YOLOv5 requirements.
 
 <p align="center">
-    <img src="darklabel_image.png" width="400"/>
+    <img width="397" alt="제목 없음2" src="https://github.com/user-attachments/assets/e393a8a2-bfe7-4df5-acf3-83269648d945">
 </p>
 
 #### **3. Training Data with YOLOv5 in Colab**
 - The YOLOv5 environment was set up on Google Colab, and the dataset was prepared for training.
 <p align="center">
-    <img src="colab_setup.png" width="400"/>
+    <img width="499" alt="제목 없음3" src="https://github.com/user-attachments/assets/afa97dce-8a7a-4cef-b35c-d915cabb93e6">
 </p>
 
 - **Training Parameters:**
