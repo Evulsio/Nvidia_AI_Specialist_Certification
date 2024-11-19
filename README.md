@@ -83,8 +83,6 @@ This project aims to develop an AI-based fire hydrant detection system capable o
 - **F1-Curve**
 <p align="center">
     <img width="1021" alt="F1_curve" src="https://github.com/user-attachments/assets/acb571ca-0abe-4c1d-82ae-3a5a5247e683">
-  ![F1_curve](https://github.com/user-attachments/assets/acb571ca-0abe-4c1d-82ae-3a5a5247e683)
-
 </p>
 
 - **Sample Predictions**
