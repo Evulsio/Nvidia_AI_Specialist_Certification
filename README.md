@@ -61,6 +61,11 @@ This project aims to develop an AI-based fire hydrant detection system capable o
     <img width="499" alt="제목 없음3" src="https://github.com/user-attachments/assets/afa97dce-8a7a-4cef-b35c-d915cabb93e6">
 </p>
 
+#### **4. Model Learning**
+<p align="center">
+    <img width="397" alt="제목 없음2" src="https://github.com/user-attachments/assets/e393a8a2-bfe7-4df5-acf3-83269648d945">
+</p>
+
 - **Training Parameters:**
 - **`train.py`**
     
