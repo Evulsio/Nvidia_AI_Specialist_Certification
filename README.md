@@ -4,39 +4,34 @@
 
 ---
 
-### 📋 Background Information
+### Background Information
 
 Fire hydrants play a critical role in urban fire response systems. However, locating hydrants quickly in complex urban environments can be challenging. Currently, manual methods are used to locate fire hydrants, which are time-consuming and prone to delays. This project aims to address these limitations by developing an AI-based system capable of detecting and classifying fire hydrants in real time.
 
 ---
 
-### 🎯 Project Description
+### Project Description
 
 This project aims to develop an AI-based fire hydrant detection system capable of identifying and classifying fire hydrants in real time. By accurately detecting fire hydrants' locations, the system can support emergency responses, reduce delays, and enhance urban fire safety.
 
 ---
 
-### 🚧 Current Limitations
+### Current Limitations
 
 - **Diverse Fire Hydrant Appearance:** Fire hydrants vary widely in color, size, and shape depending on the region, requiring extensive training data for accurate detection.
 - **Complex Environments:** Fire hydrants are often partially obscured by vehicles, buildings, or other objects, which can impact detection performance.
 
 ---
 
-### 📹 Dataset Acquisition
+### Video Acquisition
 
-- Images of fire hydrants were collected from diverse urban environments, including:
-  - Streets
-  - Residential areas
-  - Industrial zones
-- The dataset includes scenarios with:
-  - Lighting variations (day and night)
-  - Partial occlusions caused by vehicles or objects
-  - Fire hydrants captured from different angles
+- Videos of indoor fire hydrants were captured in various controlled environments to create a robust dataset for training and validation. These scenarios included:
+  - Fire hydrants located in corridors, parking lots, and building interiors
+  - Fire hydrants observed from varying angles and distances
 
 ---
 
-### 📂 Project Progress
+### Project Progress
 
 #### **1. Image Preprocessing**
 - Fire hydrant images were resized to **640 x 640** resolution to ensure compatibility with YOLOv5.
