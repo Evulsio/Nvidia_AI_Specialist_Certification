@@ -48,13 +48,13 @@ This project aims to develop an AI-based fire hydrant detection system capable o
 
 
 #### **2. Annotation with DarkLabel**
-- **DarkLabel.exe** was used to annotate fire hydrants' positions in the dataset.
-- Annotations were saved in `.txt` format following YOLOv5 requirements.
-
+- **Go to the DarkLabel.exe file**
 <p align="center">
     <img width="397" alt="제목 없음2" src="https://github.com/user-attachments/assets/e393a8a2-bfe7-4df5-acf3-83269648d945">
 </p>
 
+- Click on "Open Video" to select the video for training.
+- 
 #### **3. Training Data with YOLOv5 in Colab**
 - The YOLOv5 environment was set up on Google Colab, and the dataset was prepared for training.
 <p align="center">
