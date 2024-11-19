@@ -59,7 +59,7 @@ This project aims to develop an AI-based fire hydrant detection system capable o
 <p align="center"><img src="https://github.com/user-attachments/assets/4b59e95f-5828-4e65-abb5-bbcadb55a927"><img src="https://github.com/user-attachments/assets/a053fa82-d413-4acb-b6cf-d9ed39db2063">
 
 - Ensure that it is set to "fireplug," then set it to "box + Label," uncheck "labeled frames only," and proceed with labeling
-<p align="center"><img src="https://github.com/user-attachments/assets/24b5e6d7-f9f9-461b-8cfa-aef7c73a49b9">
+<p align="center"><img src="https://github.com/user-attachments/assets/24b5e6d7-f9f9-461b-8cfa-aef7c73a49b9"width="500" height="600"/>
 
 - After completing the labeling, click the "GT SAVE AS" button, select a folder, and save. You can then confirm that the labels are saved in a .txt file format.
 <p align="center"><img src="https://github.com/user-attachments/assets/3f482bc7-6c48-437b-9084-a6498170f543"><img src="https://github.com/user-attachments/assets/796fa33c-cb43-431b-9399-0812aaa06647">
