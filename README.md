@@ -77,12 +77,12 @@ This project aims to develop an AI-based fire hydrant detection system capable o
 
 - **Confusion Matrix**
 <p align="center">
-    ![confusion_matrix](https://github.com/user-attachments/assets/95157031-186c-4d64-ae29-8ba3f515369f)
+    <img width="1021" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/95157031-186c-4d64-ae29-8ba3f515369f">
 </p>
 
 - **F1-Curve**
 <p align="center">
-    ![F1_curve](https://github.com/user-attachments/assets/e31fae14-c85b-4e9e-9d55-e4cd449eaf33)
+    <img width="1021" alt="TensorBoard" src="https://github.com/user-attachments/assets/6bf8e38c-917d-48f2-aa70-9235c771e3b3">
 </p>
 
 - **Sample Predictions**
