@@ -1,102 +1,115 @@
 # Nvidia AI Specialist Certification Project
 
-## Fire Hydrant Detection System for Urban Safety
+## Fire Hydrant Detection and Classification System for Urban Safety
 
 ---
 
 ### 📋 Background Information
 
-Fire hydrants are critical components of urban safety systems, ensuring quick access to water during emergencies. However, locating fire hydrants quickly in densely populated urban environments can be challenging. This project leverages AI to develop a system capable of detecting and identifying fire hydrants in real time, improving response times and aiding emergency services.
+Fire hydrants play a critical role in urban fire response systems. However, locating hydrants quickly in complex urban environments can be challenging. Currently, manual methods are used to locate fire hydrants, which are time-consuming and prone to delays. This project aims to address these limitations by developing an AI-based system capable of detecting and classifying fire hydrants in real time.
 
 ---
 
 ### 🎯 Project Description
 
-This project uses YOLOv5 (You Only Look Once, Version 5) to create an AI-based fire hydrant detection system. The system is designed to identify and classify fire hydrants in real-time, even in complex urban environments. The goal is to provide accurate, real-time fire hydrant location data, improving situational awareness and optimizing emergency response efficiency.
+This project aims to develop an AI-based fire hydrant detection system capable of identifying and classifying fire hydrants in real time. By accurately detecting fire hydrants' locations, the system can support emergency responses, reduce delays, and enhance urban fire safety.
 
 ---
 
 ### 🚧 Current Limitations
 
-- **Environmental Complexity:** Urban areas often have high object density, leading to potential occlusion or distraction for the detection model.
-- **Variability in Appearance:** Fire hydrants vary significantly in size, shape, and color across regions, requiring extensive training data to ensure robust detection.
+- **Diverse Fire Hydrant Appearance:** Fire hydrants vary widely in color, size, and shape depending on the region, requiring extensive training data for accurate detection.
+- **Complex Environments:** Fire hydrants are often partially obscured by vehicles, buildings, or other objects, which can impact detection performance.
 
 ---
 
 ### 📹 Dataset Acquisition
 
-- Images of fire hydrants were collected from various environments, including:
-  - Urban streets
+- Images of fire hydrants were collected from diverse urban environments, including:
+  - Streets
   - Residential areas
   - Industrial zones
-- The dataset was augmented with scenarios including partial occlusion, varying lighting conditions, and different angles to enhance model robustness.
+- The dataset includes scenarios with:
+  - Lighting variations (day and night)
+  - Partial occlusions caused by vehicles or objects
+  - Fire hydrants captured from different angles
 
 ---
 
-### 🛠 Project Steps
+### 📂 Project Progress
 
 #### **1. Image Preprocessing**
-- Images were resized to **640 x 640** resolution for YOLOv5 compatibility.
-- Example images:
-  <p align="center">
-    <img src="image1.png" width="300"/> <img src="image2.png" width="300"/>
-  </p>
+- Fire hydrant images were resized to **640 x 640** resolution to ensure compatibility with YOLOv5.
+<p align="center">
+    <img src="image1.png" width="400"/> 
+    <img src="image2.png" width="400"/>
+</p>
 
 #### **2. Annotation with DarkLabel**
-- **Process:**
-  - Used `DarkLabel.exe` to annotate fire hydrants in the collected images.
-  - Saved the labels in `.txt` format compatible with YOLOv5 requirements.
+- **DarkLabel.exe** was used to annotate fire hydrants' positions in the dataset.
+- Annotations were saved in `.txt` format following YOLOv5 requirements.
 
 <p align="center">
     <img src="darklabel_image.png" width="400"/>
 </p>
 
-#### **3. Model Training with YOLOv5**
-- **Setup:**
-  - Cloned the YOLOv5 repository in Google Colab.
-  - Split the dataset into training and validation sets.
-
+#### **3. Training Data with YOLOv5 in Colab**
+- The YOLOv5 environment was set up on Google Colab, and the dataset was prepared for training.
 <p align="center">
     <img src="colab_setup.png" width="400"/>
 </p>
 
 - **Training Parameters:**
-  - `img`: 512 (image size)
-  - `batch`: 16 (batch size)
-  - `epochs`: 300 (number of iterations)
-  - `data.yaml`: Contains paths and class details
-  - Pre-trained weights: `yolov5n.pt`
+  - Image size: `-img 512`
+  - Batch size: `-batch 16`
+  - Epochs: `-epochs 300`
+  - Data path: `-data /content/drive/MyDrive/yolov5/data.yaml`
+  - Pre-trained weights: `-weights yolov5n.pt`
 
-#### **4. Results**
-- **Metrics:**
-  - TensorBoard outputs:
-    <p align="center">
-      <img src="tensorboard_image.png" width="400"/>
-    </p>
-  - Confusion Matrix, F1-Curve, and P-Curve.
+---
 
-- **Sample Outputs:**
-  - Predicted bounding boxes:
-    <p align="center">
-      <img src="val_batch0_pred.png" width="300"/> <img src="val_batch1_pred.png" width="300"/>
-    </p>
+### 📊 Results
+
+- **TensorBoard Visualization**
+<p align="center">
+    <img width="1021" alt="TensorBoard" src="https://github.com/user-attachments/assets/6bf8e38c-917d-48f2-aa70-9235c771e3b3">
+</p>
+
+- **Confusion Matrix**
+<p align="center">
+    ![confusion_matrix](https://github.com/user-attachments/assets/95157031-186c-4d64-ae29-8ba3f515369f)
+</p>
+
+- **F1-Curve**
+<p align="center">
+    ![F1_curve](https://github.com/user-attachments/assets/e31fae14-c85b-4e9e-9d55-e4cd449eaf33)
+</p>
+
+- **Sample Predictions**
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/05554e53-2939-440c-ae01-25be157c62e6" width="300"/>
+    <img src="https://github.com/user-attachments/assets/a7249530-4073-4455-a791-d390d21f437e" width="300"/>
+</p>
 
 ---
 
 ### 🖥 Jetson Nano Deployment
 
-- The trained model was deployed on Jetson Nano for real-time fire hydrant detection.
-- Edge deployment ensures the system is portable and scalable for on-site use.
+- The trained model was deployed on Jetson Nano for real-time detection of fire hydrants.
+- Jetson Nano ensures portability and efficiency in edge environments.
 
 ---
 
 ### 🎯 Future Work
 
-- Collect and annotate additional datasets to include regional variations in fire hydrants.
-- Improve detection performance in environments with significant occlusion or low visibility.
-- Integrate the system with mapping tools for enhanced geolocation capabilities.
+- Expand the dataset to include diverse fire hydrant appearances across various regions.
+- Improve detection performance in low-light or occluded scenarios.
+- Integrate the system with GIS mapping to provide real-time fire hydrant locations.
 
 ---
 
-### 📂 Repository Structure
+### 🎥 Detection Videos
 
+- [Detection Video 1](https://youtube.com/shorts/yhTtwcewjIc?si=bqMym3mMx-cj1yns)  
+- [Detection Video 2](https://youtube.com/shorts/VWcLRW8vs0U?si=X9I6Jk7PkDOSeuwt)  
+- [Detection Video 3](https://youtube.com/shorts/HcVqAKxXZP4?si=uQYc4MzfyEvo8hgA)
