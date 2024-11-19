@@ -50,24 +50,24 @@ This project aims to develop an AI-based fire hydrant detection system capable o
 #### **2. DarkLabel (labels)**
 - **Go to the DarkLabel.exe file**
 
-<img width="397" alt="제목 없음2" src="https://github.com/user-attachments/assets/19032ef7-210f-4e48-abe7-ab7788357ac0">
+<p align="center"><img src="https://github.com/user-attachments/assets/19032ef7-210f-4e48-abe7-ab7788357ac0">
 
 - Click on "Open Video" to select the video for training.
 
-<img width="499" alt="제목 없음3" src="https://github.com/user-attachments/assets/b6b8ce28-e856-4a14-9b26-377f005ba50e">
+<p align="center"><img src="https://github.com/user-attachments/assets/b6b8ce28-e856-4a14-9b26-377f005ba50e">
 
-<img width="156" alt="제목 없음6" src="https://github.com/user-attachments/assets/4b59e95f-5828-4e65-abb5-bbcadb55a927">
-<img width="136" alt="제목 없음7" src="https://github.com/user-attachments/assets/a053fa82-d413-4acb-b6cf-d9ed39db2063">
+<p align="center"><img src="https://github.com/user-attachments/assets/4b59e95f-5828-4e65-abb5-bbcadb55a927">
+<p align="center"><img src="https://github.com/user-attachments/assets/a053fa82-d413-4acb-b6cf-d9ed39db2063">
 
 - Ensure that it is set to "fireplug," then set it to "box + Label," uncheck "labeled frames only," and proceed with labeling
-<img width="495" alt="제목 없음8" src="https://github.com/user-attachments/assets/24b5e6d7-f9f9-461b-8cfa-aef7c73a49b9">
+<p align="center"><img src="https://github.com/user-attachments/assets/24b5e6d7-f9f9-461b-8cfa-aef7c73a49b9">
 
 - After completing the labeling, click the "GT SAVE AS" button, select a folder, and save. You can then confirm that the labels are saved in a .txt file format.
-<img width="91" alt="제목 없음9" src="https://github.com/user-attachments/assets/3f482bc7-6c48-437b-9084-a6498170f543">
-<img width="522" alt="제목 없음10" src="https://github.com/user-attachments/assets/796fa33c-cb43-431b-9399-0812aaa06647">
+<p align="center"><img src="https://github.com/user-attachments/assets/3f482bc7-6c48-437b-9084-a6498170f543">
+<p align="center"><img src="https://github.com/user-attachments/assets/796fa33c-cb43-431b-9399-0812aaa06647">
 
 - Check extracted labeling
-<img width="249" alt="제목 없음11" src="https://github.com/user-attachments/assets/6583e5f3-1b8c-41bf-b6c6-9b43eb8c2651">
+<p align="center"><img src="https://github.com/user-attachments/assets/6583e5f3-1b8c-41bf-b6c6-9b43eb8c2651">
   
 #### **3. Training Data with YOLOv5 in Colab**
 - Link your Google Drive to Colab
