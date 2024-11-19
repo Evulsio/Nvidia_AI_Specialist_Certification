@@ -62,11 +62,51 @@ This project aims to develop an AI-based fire hydrant detection system capable o
 </p>
 
 - **Training Parameters:**
-  - Image size: `-img 512`
-  - Batch size: `-batch 16`
-  - Epochs: `-epochs 300`
-  - Data path: `-data /content/drive/MyDrive/yolov5/data.yaml`
-  - Pre-trained weights: `-weights yolov5n.pt`
+- **`train.py`**
+    
+    The training script for YOLOv5. It is used to train the model.
+- **`-img 512`**
+    
+    Specifies the input image size.
+    
+    The training data is resized to 512x512 pixels before being fed into the model.
+    
+    Smaller sizes increase training speed but may reduce performance, while larger sizes require more computational resources.
+- **`-batch 16`**
+    
+    Sets the batch size.
+    
+    It determines the number of images input into the model at one time.
+    
+    Larger batch sizes can speed up training but require more memory.
+- **`-epochs 300`**
+    
+    Specifies the number of training iterations (epochs).
+    
+    The model will train on the entire dataset 300 times.
+    
+    A higher number of epochs increases training time but can improve model performance.
+- **`-data /content/drive/MyDrive/yolov5/data.yaml`**
+    
+    Path to the dataset configuration file.
+    
+    The `data.yaml` file contains:
+    
+    - Dataset paths (train/val images and labels)
+    - Number of classes
+    - Class names
+- **`-weights yolov5n.pt`**
+    
+    Specifies the pre-trained YOLOv5 model weights.
+    
+    `yolov5n.pt` refers to the Nano version of YOLOv5, which is lightweight and fast but may have relatively lower performance.
+    
+    Other options include: `yolov5s.pt`, `yolov5m.pt`, `yolov5l.pt`, `yolov5x.pt`.
+- **`-cache`**
+    
+    Caches the dataset into memory to speed up training.
+    
+    When enabled, it reduces I/O time (file reading/writing) during training.
 
 ---
 
