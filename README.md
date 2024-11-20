@@ -69,24 +69,31 @@ This project aims to develop an AI-based fire hydrant detection system capable o
   
 #### **3. Training Data with YOLOv5 in Colab**
 - Link your Google Drive to Colab
-<p align="center">
-    <img width="499" alt="제목 없음3" src="https://github.com/user-attachments/assets/afa97dce-8a7a-4cef-b35c-d915cabb93e6">
-</p>
+
+<img width="620" alt="제목 없음1" src="https://github.com/user-attachments/assets/e89b00e9-ebb4-475c-ac82-e282ad3628d4">
 
 - Clone and install the yolov5 repertoire.
-<p align="center">
-    <img width="499" alt="제목 없음3" src="https://github.com/user-attachments/assets/afa97dce-8a7a-4cef-b35c-d915cabb93e6">
-</p>
+
+<img width="606" alt="제목 없음2" src="https://github.com/user-attachments/assets/6f25fe90-c2c5-4e99-84ca-2bb9db31728d">
 
 - Creating Validation Data
-<p align="center">
-    <img width="499" alt="제목 없음3" src="https://github.com/user-attachments/assets/afa97dce-8a7a-4cef-b35c-d915cabb93e6">
-</p>
 
-#### **4. Model Learning**
-<p align="center">
-    <img width="692" alt="제목 없음5" src="https://github.com/user-attachments/assets/0867a9aa-8d16-4ab8-a228-7319c9194718">
-</p>
+<img width="586" alt="제목 없음3" src="https://github.com/user-attachments/assets/ef010046-6381-4d7a-a5af-8db2fda11045">
+
+
+Creates `images` and `labels` directories inside `val_path`.
+
+With `exist_ok=True`, no error is raised if the directories already exist.
+
+Fetches the list of image files from `train_path/images`.
+
+Uses `train_test_split` to divide the data into Validation data at a specified ratio (`split_ratio`).
+
+**Image file copying**: Copies the selected Validation image files to `val_path/images`.
+
+**Label file copying**: Copies the corresponding `.txt` label files to `val_path/labels`.
+
+Only copies label files if they exist (`if os.path.exists`).
 
 
 - **Training Parameters:**
