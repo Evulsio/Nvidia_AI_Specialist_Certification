@@ -70,15 +70,15 @@ This project aims to develop an AI-based fire hydrant detection system capable o
 #### **3. Training Data with YOLOv5 in Colab**
 - Link your Google Drive to Colab
 
-<img width="620" alt="제목 없음1" src="https://github.com/user-attachments/assets/e89b00e9-ebb4-475c-ac82-e282ad3628d4">
+<p align="center"><img src="https://github.com/user-attachments/assets/e89b00e9-ebb4-475c-ac82-e282ad3628d4">
 
 - Clone and install the yolov5 repertoire.
 
-<img width="606" alt="제목 없음2" src="https://github.com/user-attachments/assets/6f25fe90-c2c5-4e99-84ca-2bb9db31728d">
+<p align="center"><img src="https://github.com/user-attachments/assets/6f25fe90-c2c5-4e99-84ca-2bb9db31728d">
 
 - Creating Validation Data
 
-<img width="586" alt="제목 없음3" src="https://github.com/user-attachments/assets/ef010046-6381-4d7a-a5af-8db2fda11045">
+<p align="center"><img src="https://github.com/user-attachments/assets/ef010046-6381-4d7a-a5af-8db2fda11045">
 
 
 Creates `images` and `labels` directories inside `val_path`.
@@ -98,8 +98,7 @@ Only copies label files if they exist (`if os.path.exists`).
 
 #### **4. Model Learning**
 ---
-
-![image (15)](https://github.com/user-attachments/assets/c9195a2e-6253-4129-b0f6-7730c73c1ebf)
+<p align="center"><img src="https://github.com/user-attachments/assets/18b962a9-71ea-486e-b681-3b6269885381">
 - **`train.py`**
     
     The training script for YOLOv5. It is used to train the model.
