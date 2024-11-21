@@ -99,9 +99,10 @@ Only copies label files if they exist (`if os.path.exists`).
 #### **4. Model Learning**
 ---
 <p align="center"><img src="https://github.com/user-attachments/assets/18b962a9-71ea-486e-b681-3b6269885381">
+  
 - **`train.py`**
     
-    The training script for YOLOv5. It is used to train the model.
+  The training script for YOLOv5. It is used to train the model.
 - **`-img 512`**
     
     Specifies the input image size.
