@@ -147,7 +147,7 @@ Only copies label files if they exist (`if os.path.exists`).
 
 ---
 
-### 📊 Results
+### Results
 
 - **TensorBoard Visualization**
 <p align="center">
@@ -164,11 +164,34 @@ Only copies label files if they exist (`if os.path.exists`).
     <img width="1021" alt="F1_curve" src="https://github.com/user-attachments/assets/acb571ca-0abe-4c1d-82ae-3a5a5247e683">
 </p>
 
-- **Sample Predictions**
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/05554e53-2939-440c-ae01-25be157c62e6" width="300"/>
-    <img src="https://github.com/user-attachments/assets/a7249530-4073-4455-a791-d390d21f437e" width="300"/>
-</p>
+- **labels_correlogram**
+  
+
+- **labels**
+
+![06a8f4de-36c2-431c-842e-90569711f48e](https://github.com/user-attachments/assets/f75f30ef-de5d-42b5-a93e-678a647cf977)
+
+- **P-Curve**
+
+![626e43d6-956d-41ed-bbbc-b74e538a88be](https://github.com/user-attachments/assets/581f27ff-12c6-446c-947d-fe04c33e5d68)
+
+- **Result**
+
+![4d6a1b01-32e3-492d-93d4-c37fc2a4ddfd](https://github.com/user-attachments/assets/dd9731ac-254d-4f51-90a6-952e5eaeeddb)
+
+- **Train batch**
+
+![val_batch0_labels](https://github.com/user-attachments/assets/53ec6ea2-4d58-45f1-b6f3-8bb6aa5383bf)
+
+![val_batch0_pred](https://github.com/user-attachments/assets/05554e53-2939-440c-ae01-25be157c62e6)
+
+![val_batch1_labels](https://github.com/user-attachments/assets/98e1a17e-e865-4806-a772-353ead0e250b)
+
+![val_batch1_pred](https://github.com/user-attachments/assets/a7249530-4073-4455-a791-d390d21f437e)
+
+![val_batch2_labels](https://github.com/user-attachments/assets/4bdbfb5f-f8b4-4127-85c9-b964d1fabc1d)
+
+![val_batch2_pred](https://github.com/user-attachments/assets/bb8f4588-e759-4763-8518-4a1fd8fbf189)
 
 ---
 
