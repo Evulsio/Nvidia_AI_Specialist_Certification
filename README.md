@@ -166,11 +166,12 @@ Only copies label files if they exist (`if os.path.exists`).
 </p>
 
 - **labels_correlogram**
-  
+  <p align="center">
+     <img width="1021" alt="labels_correlogram" src=https://github.com/user-attachments/assets/726201e3-8b95-456e-b8c6-fa34b0bd4958>
+</p>
 
 - **labels**
-
-![06a8f4de-36c2-431c-842e-90569711f48e](https://github.com/user-attachments/assets/f75f30ef-de5d-42b5-a93e-678a647cf977)
+![labels](https://github.com/user-attachments/assets/7b3b80e2-9bb4-4b21-b59f-6fbb913099f9)
 
 - **P-Curve**
 
