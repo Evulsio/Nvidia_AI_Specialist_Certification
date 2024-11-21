@@ -171,40 +171,37 @@ Only copies label files if they exist (`if os.path.exists`).
 </p>
 
 - **labels**
-![labels](https://github.com/user-attachments/assets/7b3b80e2-9bb4-4b21-b59f-6fbb913099f9)
+  <p align="center">
+     <img width="1021" alt="labels" src=https://github.com/user-attachments/assets/7b3b80e2-9bb4-4b21-b59f-6fbb913099f9>
+</p>
 
 - **P-Curve**
-
-![626e43d6-956d-41ed-bbbc-b74e538a88be](https://github.com/user-attachments/assets/581f27ff-12c6-446c-947d-fe04c33e5d68)
+<p align="center">
+     <img width="1021" alt="P-Curve" src=https://github.com/user-attachments/assets/cd8e3b20-8b8c-4e04-aecc-638ddbf5ae5c)>
+</p>
 
 - **Result**
-
-![4d6a1b01-32e3-492d-93d4-c37fc2a4ddfd](https://github.com/user-attachments/assets/dd9731ac-254d-4f51-90a6-952e5eaeeddb)
+<p align="center">
+     <img width="1021" alt="Result" src=https://github.com/user-attachments/assets/a32c05e6-d1af-4748-b4c2-cf1101ed99cd>
+</p>
 
 - **Train batch**
+![train_batch0](https://github.com/user-attachments/assets/158a6c7e-05c5-4076-8101-fb21c205e8de)
 
-![val_batch0_labels](https://github.com/user-attachments/assets/53ec6ea2-4d58-45f1-b6f3-8bb6aa5383bf)
+![train_batch1](https://github.com/user-attachments/assets/0cc2728e-2642-4575-acb0-2b4455ce1798)
 
-![val_batch0_pred](https://github.com/user-attachments/assets/05554e53-2939-440c-ae01-25be157c62e6)
-
-![val_batch1_labels](https://github.com/user-attachments/assets/98e1a17e-e865-4806-a772-353ead0e250b)
-
-![val_batch1_pred](https://github.com/user-attachments/assets/a7249530-4073-4455-a791-d390d21f437e)
-
-![val_batch2_labels](https://github.com/user-attachments/assets/4bdbfb5f-f8b4-4127-85c9-b964d1fabc1d)
-
-![val_batch2_pred](https://github.com/user-attachments/assets/bb8f4588-e759-4763-8518-4a1fd8fbf189)
+![train_batch2](https://github.com/user-attachments/assets/af6b6555-963c-4199-a175-64de27346ec3)
 
 ---
 
-### 🖥 Jetson Nano Deployment
+### Jetson Nano Deployment
 
 - The trained model was deployed on Jetson Nano for real-time detection of fire hydrants.
 - Jetson Nano ensures portability and efficiency in edge environments.
 
 ---
 
-### 🎯 Future Work
+### Future Work
 
 - Expand the dataset to include diverse fire hydrant appearances across various regions.
 - Improve detection performance in low-light or occluded scenarios.
@@ -212,7 +209,7 @@ Only copies label files if they exist (`if os.path.exists`).
 
 ---
 
-### 🎥 Detection Videos
+### Detection Videos
 
 - [Detection Video 1](https://youtube.com/shorts/yhTtwcewjIc?si=bqMym3mMx-cj1yns)  
 - [Detection Video 2](https://youtube.com/shorts/VWcLRW8vs0U?si=X9I6Jk7PkDOSeuwt)  
