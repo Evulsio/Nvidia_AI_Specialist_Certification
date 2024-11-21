@@ -194,13 +194,10 @@ Only copies label files if they exist (`if os.path.exists`).
 
 ---
 ### Detect
-
+<p align="center"><img src="https://github.com/user-attachments/assets/18b962a9-71ea-486e-b681-3b6269885381">
 
 ### Detection Videos
-
-- [Detection Video 1](https://youtube.com/shorts/yhTtwcewjIc?si=bqMym3mMx-cj1yns)  
-- [Detection Video 2](https://youtube.com/shorts/VWcLRW8vs0U?si=X9I6Jk7PkDOSeuwt)  
-- [Detection Video 3](https://youtube.com/shorts/HcVqAKxXZP4?si=uQYc4MzfyEvo8hgA)
+- https://drive.google.com/drive/folders/11LCP-HhQijT6ye0oaJKHa0C6FdKvZ-Er?usp=sharing
 
 ### Jetson Nano
 
