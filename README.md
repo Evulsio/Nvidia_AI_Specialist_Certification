@@ -1,4 +1,4 @@
-# Nvidia AI Specialist Certification Project
+# Nvidia AI Specialist Certification
 
 ## Fire Hydrant Detection and Classification System for Urban Safety
 
