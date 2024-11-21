@@ -167,17 +167,17 @@ Only copies label files if they exist (`if os.path.exists`).
 
 - **labels_correlogram**
   <p align="center">
-     <img width="1021" alt="labels_correlogram" src=https://github.com/user-attachments/assets/726201e3-8b95-456e-b8c6-fa34b0bd4958>
+    <img width="1021" alt="labels_correlogram" src=https://github.com/user-attachments/assets/726201e3-8b95-456e-b8c6-fa34b0bd4958>
 </p>
 
 - **labels**
   <p align="center">
-     <img width="1021" alt="labels" src=https://github.com/user-attachments/assets/7b3b80e2-9bb4-4b21-b59f-6fbb913099f9>
+    <img width="1021" alt="labels" src=https://github.com/user-attachments/assets/7b3b80e2-9bb4-4b21-b59f-6fbb913099f9>
 </p>
 
 - **P-Curve**
 <p align="center">
-     <img width="1021" alt="P-Curve" src=https://github.com/user-attachments/assets/cd8e3b20-8b8c-4e04-aecc-638ddbf5ae5c)>
+     <img width="1021" alt="P-Curve" src=https://github.com/user-attachments/assets/1c2022d4-84d7-4328-9cfd-29c1fb8deeb4>
 </p>
 
 - **Result**
@@ -193,24 +193,15 @@ Only copies label files if they exist (`if os.path.exists`).
 ![train_batch2](https://github.com/user-attachments/assets/af6b6555-963c-4199-a175-64de27346ec3)
 
 ---
+### Detect
 
-### Jetson Nano Deployment
-
-- The trained model was deployed on Jetson Nano for real-time detection of fire hydrants.
-- Jetson Nano ensures portability and efficiency in edge environments.
-
----
-
-### Future Work
-
-- Expand the dataset to include diverse fire hydrant appearances across various regions.
-- Improve detection performance in low-light or occluded scenarios.
-- Integrate the system with GIS mapping to provide real-time fire hydrant locations.
-
----
 
 ### Detection Videos
 
 - [Detection Video 1](https://youtube.com/shorts/yhTtwcewjIc?si=bqMym3mMx-cj1yns)  
 - [Detection Video 2](https://youtube.com/shorts/VWcLRW8vs0U?si=X9I6Jk7PkDOSeuwt)  
 - [Detection Video 3](https://youtube.com/shorts/HcVqAKxXZP4?si=uQYc4MzfyEvo8hgA)
+
+### Jetson Nano
+
+---
