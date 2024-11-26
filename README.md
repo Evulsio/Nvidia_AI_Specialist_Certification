@@ -200,5 +200,5 @@ Only copies label files if they exist (`if os.path.exists`).
 - https://drive.google.com/drive/folders/11LCP-HhQijT6ye0oaJKHa0C6FdKvZ-Er?usp=sharing
 
 ### Jetson Nano
-
+- https://drive.google.com/drive/folders/1yZVS5xVPjX_4yPrCLfbPiB2d-zJ-rJEX?usp=sharing
 ---
